@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html">
+<title>Show images in folder</title>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="css/lightbox.css" rel="stylesheet" />
+<!--        <link rel="stylesheet" href="css/stylesheet.css">-->
+
+<style type="text/css">
+body {
+/*
+    margin: 0 auto 20px;
+    padding: 0;
+*/
+    background: black;
+    text-align: center;
+}
+
+img {
+/*    display: block;*/
+/*    margin: 20px auto 10px;*/
+/*    padding: 50px;*/
+    max-width: 180px;
+    outline: none;
+    float: left;
+    height: auto;
+}
+
+div:active{
+    max-width: 100%;
+}
+
+img:active {
+    max-width: 100%;
+    width: 180px;
+}
+a:focus {
+    outline: none;
+}
+
+#pics{
+    width: 200px;
+    height: 200px;
+    background: black;
+    float: left;
+}
+
+
+#title{
+    width: 49%;
+    float: left;
+    font-family: arial;
+}
+
+#title2{
+    width: 49%;
+    float: left;
+    outline: solid #4a4a4a;
+    font-family: arial;
+}
+header{
+    background-color: white;
+}
+
+
+</style>
+</head>
+<body>
+        
+    <header>
+        <a href="index.html" id="iconcam">
+            <img src="img/camera120.png" alt="logo" />
+        </a>
+        <a href="grid.html" id="iconpic">
+            <img src="img/happy%20mac.png" alt="logo" />
+        </a>
+        <h1>Pictures</h1>
+
+    </header>
+    
+    <p id="test"></p>
+    <div id="pics">
+        <a name="1" href="images/1.jpg" id="pic1" data-lightbox="images/1.jpg"><img src="images/1.jpg" id="pic1" style="width: 180px;"></a>   
+    </div>
+    <div id="pics">
+        <a name="2" href="images/100283.jpg" id="pic2" data-lightbox="images/100283.jpg"><img src="images/100283.jpg" id="pic2" style="width: 180px;"></a>   
+    </div>
+    
+        <button id="b">Test</button>
+        <div id="loaded">
+            
+        </div>
+
+<script src="js/ajax.js"></script>
+<script src="js/download.js"></script>    
+</body>
+</html>

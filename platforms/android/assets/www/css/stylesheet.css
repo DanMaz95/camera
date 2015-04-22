@@ -1,0 +1,291 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans';
+    text-align: center;
+}
+ body {
+        background-color: #191919;
+    }
+.wrapper {
+    width: 100%;
+}
+
+p {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Indie Flower';
+    text-align: center;
+    /*Centering Method 2*/
+    
+    margin: 45px 0 0 -50px;
+    left: 46.5%;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    margin: 3rem 2rem;
+    background-color: #fff;
+    border: solid 2px #000;
+    border-radius: 10px;
+    color: #000;
+    height: 40px;
+    font-size: 18px;
+    width: 40%;
+    transition: .2s;
+}
+
+button:hover {
+    padding: 0.5rem 2rem;
+    margin: 3rem 2rem;
+    background-color: #fff;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+    transition: .2s;
+}
+
+
+ button {
+        height: 35px;
+        font-size: 13px;
+        width: 30%;
+        padding: 0.5rem 2rem;
+        background-color: #fff;
+        border: solid 2px #000;
+        border-radius: 10px;
+        color: #000;
+        background-color: #fff;
+        transition: .2s;
+    }
+    #btnadd {
+        width: 60%;
+        height: 45px;
+        font-size: 13px;
+    }
+
+#t {
+    width: 60%;
+    height: 45px;
+    font-size: 1rem;
+    padding: 0.25rem 1rem;
+    margin: 1rem 2rem;
+    margin-top: .5rem;
+    border-radius: 10px;
+}
+
+#c {
+    width: 800px;
+    height: 600px;
+    background-color: #ccc;
+    border: solid 1px black;
+    margin: 2rem;
+}
+
+#thumbnail {
+    margin: 3rem;
+    width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+header {
+    background-color: #fff;
+    height: 6rem;
+    border-bottom: solid 2px #c9c9c9;
+}
+
+img {
+    width: 85px;
+    color: #fff;
+}
+
+#iconcam {
+    width: 45px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 45px;
+}
+
+#iconpic {
+    float: right;
+    margin-right: 15px;
+    margin-top: 8px;
+    list-style-type: none;
+    font-size: 45px;
+}
+
+a {
+    color: #fff;
+    transition: 1s;
+    list-style: none;
+}
+
+a:hover {
+    color: #a8c3ff;
+    transition: .3s;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: solid 2px #c9c9c9;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus {
+    border: solid 2px #969696;
+}
+#uuid{
+    color: white;
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    h1 {
+        position: absolute;
+        font-size: 20px;
+        margin-top: 30px;
+        /*Centering Method 2*/
+        
+        margin: 65px 0 0 -50px;
+        left: 50%;
+    }
+    button {
+        height: 35px;
+        font-size: 13px;
+        width: 30%;
+        padding: 0.5rem 2rem;
+        background-color: #fff;
+        border: solid 2px #000;
+        border-radius: 10px;
+        color: #000;
+        background-color: #fff;
+        transition: .2s;
+    }
+    #btnaddbottom {
+        width: 60%;
+        height: 45px;
+        font-size: 13px;
+    }
+       #btnaddtop {
+        width: 60%;
+        height: 45px;
+        font-size: 13px;
+    }
+    #t {
+        width: 60%;
+        height: 30px;
+        font-size: 1rem;
+        padding: 0.25rem 1rem;
+        margin: 1rem 2rem;
+        margin-top: .3rem;
+        border-radius: 10px;
+    }
+    #c {
+        text-align: center;
+        width: 500px;
+        height: 300px;
+        background-color: #ccc;
+        border: solid 1px black;
+        margin: 2rem;
+    }
+    #thumbnail {
+        margin: 3rem;
+        width: 100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    header {
+        background-color: #fff;
+        height: 6rem;
+        border-bottom: solid 2px #c9c9c9;
+    }
+    img {
+/*        width: 50px;*/
+/*        margin-top: 15px;*/
+        color: #fff;
+    }
+}
+    
+    @media screen and (min-width: 701px) and (max-width: 1900px) { 
+    /* STYLES HERE */
+    
+         h1 {
+        position: absolute;
+        font-size: 20px;
+        margin-top: 30px;
+        /*Centering Method 2*/
+        
+        margin: 45px 0 0 -50px;
+        left: 50%;
+    }
+    button {
+        height: 50px;
+        font-size: 16px;
+        width: 30%;
+        padding: 0.5rem 2rem;
+        background-color: #fff;
+        border: solid 2px #000;
+        border-radius: 10px;
+        color: #000;
+        background-color: #fff;
+        transition: .2s;
+    }
+    #btnaddbottom {
+        width: 60%;
+        height: 55px;
+        font-size: 16px;
+    }
+          #btnaddtop {
+        width: 60%;
+        height: 55px;
+        font-size: 16px;
+    }
+    #t {
+        width: 60%;
+        height: 35px;
+        font-size: 16px;
+        padding: 0.25rem 1rem;
+        margin: 1rem 2rem;
+        margin-top: .3rem;
+        border-radius: 10px;
+    }
+            #t2{
+        width: 60%;
+        height: 35px;
+        font-size: 16px;
+        padding: 0.25rem 1rem;
+        margin: 1rem 2rem;
+        margin-top: .3rem;
+        border-radius: 10px;
+    }
+
+    #thumbnail {
+        margin: 3rem;
+        width: 100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    header {
+        background-color: #fff;
+        height: 6rem;
+        border-bottom: solid 2px #c9c9c9;
+    }
+    img {
+/*        width: 70px;*/
+/*        margin-top: 7px;*/
+        color: #fff;
+    }
+}
